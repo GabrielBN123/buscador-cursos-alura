@@ -1,0 +1,15 @@
+{
+    "name": "gabrielbn123/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gabrielbn123\\BuscadorCursos\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    }
+}
