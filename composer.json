@@ -19,5 +19,9 @@
         "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "*",
         "phan/phan": "^5.3"
+    },
+    "scripts": {
+        "cs" : "phpcs --standard=PSR12 src/",
+        "phan": "phan --allow-polyfill-parser"
     }
 }
