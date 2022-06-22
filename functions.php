@@ -2,5 +2,5 @@
 
 function mensagem(string $mensagem)
 {
-    echo $mensagem . '<br />';
+    echo $mensagem . PHP_EOL;
 }
