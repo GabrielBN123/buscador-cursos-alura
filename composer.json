@@ -35,6 +35,9 @@
     "scripts-descriptions": {
         "att": "Executa composer install e composer update"
     },
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "bin" : [
+        "buscar-cursos.php"
+    ]
     
 }
