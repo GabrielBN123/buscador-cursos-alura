@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-require __DIR__.'/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use Gabrielbn123\BuscadorCursos\Buscador;
 use GuzzleHttp\Client;
